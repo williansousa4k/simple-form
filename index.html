@@ -7,5 +7,34 @@
 </head>
 <body>
     <h1>simple form</h1>
+
+    <form action="form.html" method="get">
+        <label for="nome">email: </label>
+        <input type="email" name="email" id="email">
+
+        <label for="senha">Senha: </label>
+        <input type="password" name="senha" id="senha">
+
+        <label for="numero">Digite um numero:</label>
+        <input type="number" name="numero" id="numero" min="1" max="100">
+
+        <input type="checkbox" name="Linguagem" id="Portuguẽs" value="Português">
+        <label for="Portuguẽs">Português</label>
+
+        <input type="checkbox" name="Linguagem" id="Ingles" value="Ingles">
+        <label for="Ingles">Ingles</label>
+
+        <input type="checkbox" name="Linguagem" id="Japonẽs" value="Japonês">
+        <label for="Japonês">Japonês</label>
+
+        <input type="radio" name="generos" id="feminino" value="feminino">
+        <label for="feminino">feminino</label>
+
+        <input type="radio" name="generos" id="masculino" value="masculino">
+        <label for="masculino">masculino</label>
+
+        <button type="reset">Resetar</button>
+        <button type="submit">enviar</button>
+    </form>
 </body>
 </html>
